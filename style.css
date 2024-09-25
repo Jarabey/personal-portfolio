@@ -1,6 +1,9 @@
 body{
     font-family: Poppins, sans-serif;
+    margin: 0;
 }
+
+ /* Header NavBar */
 
 header{
     display:flex;
@@ -29,5 +32,76 @@ nav {
 
 .nav-bar li{
     margin-right: 20px;
-    margin-top: 1rem;
+    margin-top: 0.8rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(25, 25, 25);
+
+}
+
+ /* Headeer Tile & Description */
+
+ .container-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(170, 170, 170);
+    padding: 10rem;
+ }
+
+ .header-title{
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+ }
+
+ .header-description{
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+ }
+
+  /* Main Information */
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+}
+
+  /* Projects */
+
+.projects {
+    padding-left: 3rem;
+    padding-right: 0;
+}
+
+.projects li, ul{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+  /* Work Experience */
+
+.experience{
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.experience li{
+    padding: 0.5rem;
+    padding-top: 0;
+    padding-right: 3rem;
+}
+
+  /* Education */
+
+.education{
+    padding-left: 0;
+}
+.education li{
+    list-style: circle ;
 }
