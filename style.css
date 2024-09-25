@@ -10,6 +10,11 @@ nav {
     justify-content: space-between;
 }
 
+.nav-logo{
+    width: 5rem;
+    padding-left: 1rem;
+}
+
 .nav-bar {
     display: inline-flex;
     flex-direction: row;
@@ -19,4 +24,5 @@ nav {
 
 .nav-bar li{
     margin-right: 20px;
+    margin-top: 1rem;
 }
