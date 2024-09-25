@@ -1,0 +1,22 @@
+header{
+    display:flex;
+    flex-direction: column;
+}
+
+nav {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav-bar li{
+    margin-right: 20px;
+}
