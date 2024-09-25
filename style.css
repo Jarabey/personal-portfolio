@@ -1,3 +1,7 @@
+body{
+    font-family: Poppins, sans-serif;
+}
+
 header{
     display:flex;
     flex-direction: column;
@@ -20,6 +24,7 @@ nav {
     flex-direction: row;
     list-style: none;
     flex-wrap: wrap;
+    font-size: 15px;
 }
 
 .nav-bar li{
