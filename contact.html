@@ -13,9 +13,33 @@
     <meta property="og:image" content="https://example.com/images/og-image.png">
     <meta property="og:url" content="https://example.com/jasmin-portfolio">
     <meta property="og:type" content="website">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
     <title>Contact</title>
 </head>
 <body>
+     <!-- Header -->
+     <section class="container-navbar">
+        <header>
+            <nav>
+                <img src="/img/logo.png" class="nav-logo">
+                <ul class="nav-bar">
+                    <li>
+                        <a href="./home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./projects.html"">Projects</a>
+                    </li>
+                    <li>
+                        <a href="./articles.html">Articles</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+</section>
     <section>
     <form>
         <label>Name</label><br>
@@ -23,8 +47,8 @@
         <label>Email</label><br>
         <input type="mail"><br>
         <label>Message</label><br>
-        <input type="text">
-        <input type="submit" value="Send">
+        <input type="text" class="message"><br>
+        <input type="submit" value="Send" class="button">
     </form>
 </section>
 </body>

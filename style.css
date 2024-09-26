@@ -19,7 +19,7 @@ nav {
 
 .nav-logo{
     width: 5rem;
-    padding-left: 1rem;
+    padding-left: 4rem;
 }
 
 .nav-bar {
@@ -27,11 +27,11 @@ nav {
     flex-direction: row;
     list-style: none;
     flex-wrap: wrap;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .nav-bar li{
-    margin-right: 20px;
+    margin-right: 3rem;
     margin-top: 0.8rem;
 }
 
@@ -144,4 +144,31 @@ footer{
     flex-direction: row;
     justify-content: center;
     margin: 3rem;
+}
+
+  /* Contact */
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+
+}
+
+label{
+    padding-left: 25rem;
+}
+
+input{
+    padding: 0.5rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
+
+.message{
+    padding: 2.5rem;
+}
+
+.button{
+    margin-right: 60rem;
 }
