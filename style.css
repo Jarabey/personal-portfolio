@@ -176,7 +176,6 @@ input{
   /* Smartphone */
 
   @media screen and (max-width: 767px) {
-    /* Make the navbar stack vertically */
 
     html,body{
         overflow-x: hidden;
@@ -193,14 +192,13 @@ input{
     }
 
     .nav-logo {
-        padding-left: 0; /* Remove padding on smaller screens */
+        padding-left: 0;
     }
 
     .nav-bar li {
-        margin: 0.5rem 0; /* Reduce margin on smaller screens */
+        margin: 0.5rem 0; 
     }
 
-    /* Adjust the title container padding */
     .container-title {
         padding: 7rem 5rem;
         
@@ -216,7 +214,6 @@ input{
         font-size: 1rem;
     }
 
-    /* Stack the main content vertically */
     main {
         flex-direction: column;
         margin: 2rem;
@@ -230,27 +227,29 @@ input{
         margin: 2rem;
     }
 
-    /* Adjust testimonials to fit better on small screens */
     .testimonials ul {
         flex-direction: column;
-        width: 100%; /* Ensure the list takes full width */
+        width: 100%; 
     }
     
     .testimonials li {
         padding: 2rem;
         margin: 1rem 0;
-        width: 90%; /* Adjust width dynamically */
-        max-width: 100%; /* Prevent it from exceeding the container size */
-        box-sizing: border-box; /* Ensure padding is included in the width calculation */
+        width: 90%; 
+        max-width: 100%; 
+        box-sizing: border-box;
         margin-left: auto;
-        margin-right: auto; /* Center the testimonial */
+        margin-right: auto;
     }
+
     /* Contact form adjustment */
     label, input, .button {
-        margin: 1rem auto;
-        padding-left: 0;
-        margin-right: 0;
-        width: 80%;
+        padding: 2rem;
+        width: 90%;
+        max-width: 100%; 
+        box-sizing: border-box; 
+        margin-left: auto;
+        margin-right: auto;
     }
 
     input, .message {
