@@ -1,6 +1,6 @@
 # Personal Portfolio
 ### 🌟 RoadMap Project
-Basic HTML Website that include:
+Personal Portfolio that include:
 
 ✔️ A fully styled, responsive website with the same structure as the previous project.
 
